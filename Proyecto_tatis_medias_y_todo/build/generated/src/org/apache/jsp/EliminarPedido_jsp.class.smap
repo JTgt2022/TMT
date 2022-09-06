@@ -1,0 +1,13 @@
+SMAP
+EliminarPedido_jsp.java
+JSP
+*S JSP
+*F
++ 0 EliminarPedido.jsp
+EliminarPedido.jsp
+*L
+5,31:44
+36:76,2
+37,4:78,3
+41,4:90
+*E

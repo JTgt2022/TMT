@@ -1,0 +1,13 @@
+SMAP
+EliminarCliente_jsp.java
+JSP
+*S JSP
+*F
++ 0 EliminarCliente.jsp
+EliminarCliente.jsp
+*L
+5,32:44
+37:77,2
+38,4:79,3
+42,4:91
+*E

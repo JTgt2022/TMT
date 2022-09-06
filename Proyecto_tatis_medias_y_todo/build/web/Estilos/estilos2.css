@@ -1,0 +1,209 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28/06/2022, 10:57:29 AM
+    Author     : SENA
+*/
+@import url('https://fonts.googleapis.com/css?family=Numans');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+html,body{
+background-image: url(https://es.pngtree.com/freebackground/red-vector-flat-mall-shopping-promotion-poster-background-illustration_1033163.html);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.contenedor{
+height: 80%;
+height: 600px;
+margin-top: 3px;
+margin-bottom: auto;
+width: 540px;
+background-color: rgba(0,0,0,0.5) !important;
+opacity: 2;
+border-radius: 15px;
+
+}
+
+.contenedor2{
+    
+height: 80%;
+height: 300px;
+margin-top: 3px;
+margin-bottom: auto;
+width: 800px;
+background-color: rgba(255, 255, 255,255);
+opacity: 5;
+border-radius: 15px;
+padding:25px 3px 3px 3px;
+   
+    
+}
+
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h1{
+color: black;
+font-family:'Lobster', cursive;
+text-align: center;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 260px;
+padding: 5px 5px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+
+.uno{
+  color:white;
+  font-family: 'Lobster', cursive;
+      
+}
+
+
+.tres{
+     font-family: 'Lobster', cursive;
+     color:white;
+     text-align: center;
+    
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav .menu >li{
+	display: inline-block;
+	text-align: center;
+}
+
+nav .menu >li >a{
+	display: block;
+	padding: 15px 25px;
+	text-decoration: none;
+	color:  #009c11;
+	font-weight: bold;
+}
+
+nav .menu >li >a:hover{
+	background-color: #009c11;
+	color: #ffffff;
+	transition: background-color 2s; 
+	
+}
+
+
+
+
+
+
+.busqueda{
+	width: 100%;
+	clear: both;
+	margin: 50px 0px;
+        height: 200px;
+}
+
+.busqueda input[type=text]{
+	width: 80%;
+	padding: 8px;
+	border: 3px solid #46B5F8;
+	border-radius: 5px;
+    }
+    
+    
+    
+    #letra{
+        
+         color:#ffffff;
+        text-align: center;
+        text-align: left;
+
+    }
+        
+               
+        
+    
+    
+    .tres{
+     font-family: 'Lobster', cursive;
+     color:white;
+     text-align: center;
+   
+}
+  
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    text-align: center;
+   
+}
+
+
+.campos{
+    color: white;
+  
+}
+
+

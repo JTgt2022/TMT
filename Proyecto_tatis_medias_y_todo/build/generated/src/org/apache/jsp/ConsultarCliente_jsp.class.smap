@@ -1,0 +1,22 @@
+SMAP
+ConsultarCliente_jsp.java
+JSP
+*S JSP
+*F
++ 0 ConsultarCliente.jsp
+ConsultarCliente.jsp
+*L
+5,23:53
+30,6:79
+35,14:85
+49,11:100
+59,20:111
+79,2:132
+80,2:134
+82,5:136,3
+87,4:151
+91,2:155,3
+93,2:161
+95:163,3
+96,8:166
+*E

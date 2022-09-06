@@ -1,0 +1,121 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28/06/2022, 08:00:50 AM
+    Author     : SENA
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+html,body{
+background-image: url('https://sergioescobar.cl/wp-content/uploads/2020/11/Dejar-auto-en-consignacio%CC%81n_Sergio-Escobar.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+
+}
+
+
+nav ul{
+	list-style: none;
+}
+
+nav .menu >li{
+	display: inline-block;
+	text-align: center;
+}
+
+nav .menu >li >a{
+	display: block;
+	padding: 15px 25px;
+	text-decoration: none;
+	color:  #009c11;
+	font-weight: bold;
+}
+
+nav .menu >li >a:hover{
+	background-color: #009c11;
+	color: #ffffff;
+	transition: background-color 2s; 
+	
+}
+
+.submenu{
+	position: absolute;
+	background: linear-gradient(#46B5F8, #78FC7C); 
+	text-align: left;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.submenu ul{
+	list-style: none;
+}
+
+.submenu li{
+	width: 100%;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px 25px;
+	color: #009c11;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 3s;
+}
+
+
+.botones{
+	float: right;
+	font-size: 60px; 
+        color: #FFC312;
+}
+
+
+.busqueda{
+	width: 100%;
+	clear: both;
+	margin: 50px 0px;
+}
+
+.busqueda input[type=text]{
+	width: 80%;
+	padding: 8px;
+	border: 3px solid #46B5F8;
+	border-radius: 5px;
+    }
+    
+    
+    
+    .busqueda letra {
+        
+        color:#ffffff;
+        
+    }
+    
+    
+    
+ .container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 450px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
